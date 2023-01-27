@@ -29,12 +29,12 @@ redSwatch.addEventListener("mouseover", function() {
   price.innerHTML = "$159.99";
   price.style.color = "black";
   price.innerHTML += " (Air Jordan Red)";
-});
-
-whiteSwatch.addEventListener("mouseover", function() {
   image.src = "img/chair-beige@2x.jpg";
   price.innerHTML = "$195.84";
   price.style.color = "black";
+});
+
+whiteSwatch.addEventListener("mouseover", function() {
   price.innerHTML += " (Air Jordan Black)";
 });
 
